@@ -40,6 +40,6 @@ public class Question3 {
         
         total = sum + sum2;
         System.out.print(sum + "+" + sum2 + "=" + total + "\n");
-        
+       
     }
 }
