@@ -21,18 +21,13 @@ public class Tutorial1Q5 {
                 System.out.print("Number Can't Start With 0!!\n");
                 break;
             }
-            else if(x == 1){
+            else if(x == 1 || x % 2 != 0){
                 System.out.print(x + " ");
                 sumNum += x;
             }
-            else if(x % 2 != 0){
-                System.out.print(x + " ");
-                sumNum += x;
-                
-            }
-            
+           
         }
-        System.out.print("\n");
+        System.out.print("\nTotal : " + sumNum + "\n");
         
         
     }
