@@ -18,7 +18,7 @@ public class Question1{
         System.out.print("\nWhat is your target GPA for this semester? ");
         GPA = scan.nextFloat();
 
-        System.out.print("\nHello : " + name +"!");
-        System.out.print("\nWork hard to achieve your target GPA of "+ GPA + " this semester of Year "+ year + ".");
+        System.out.print("\nHello : " + name +"!\n");
+        System.out.print("Work hard to achieve your target GPA of "+ GPA + " this semester of Year "+ year + ".");
     }
 }
